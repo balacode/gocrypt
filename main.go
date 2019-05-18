@@ -1,6 +1,6 @@
 // -----------------------------------------------------------------------------
 // (c) balarabe@protonmail.com                                      License: MIT
-// :v: 2019-05-13 21:06:42 4FF304                              gocrypt/[main.go]
+// :v: 2019-05-18 17:54:23 A9E986                              gocrypt/[main.go]
 // -----------------------------------------------------------------------------
 
 package main
@@ -11,7 +11,9 @@ import (
 	whirl "github.com/balacode/zr-whirl"
 )
 
-var PL = fmt.Println
+var (
+	PL = fmt.Println
+)
 
 // main __
 func main() {
