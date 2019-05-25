@@ -1,12 +1,13 @@
 // -----------------------------------------------------------------------------
 // (c) balarabe@protonmail.com                                      License: MIT
-// :v: 2019-05-18 17:54:23 A9E986                              gocrypt/[main.go]
+// :v: 2019-05-25 22:34:13 24D480                              gocrypt/[main.go]
 // -----------------------------------------------------------------------------
 
 package main
 
 import (
 	"fmt"
+
 	"github.com/balacode/zr"
 	whirl "github.com/balacode/zr-whirl"
 )
