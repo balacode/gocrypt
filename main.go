@@ -1,6 +1,6 @@
 // -----------------------------------------------------------------------------
 // (c) balarabe@protonmail.com                                      License: MIT
-// :v: 2019-05-25 22:34:13 24D480                              gocrypt/[main.go]
+// :v: 2020-06-20 10:05:53 068C64                              gocrypt/[main.go]
 // -----------------------------------------------------------------------------
 
 package main
@@ -16,7 +16,7 @@ var (
 	PL = fmt.Println
 )
 
-// main __
+// main _ _
 func main() {
 	var (
 		key1 = []byte("fryling and grimbling nambs")
@@ -25,13 +25,13 @@ func main() {
 	)
 	t.Start("Generate 1 million hashes")
 	{
-		multiHash(key1, key2, 1E6)
+		multiHash(key1, key2, 1e6)
 	}
 	t.StopLast()
 	t.Print()
 }
 
-// multiHash __
+// multiHash _ _
 func multiHash(data, key []byte, iterations int) []byte {
 	var (
 		salt = key
