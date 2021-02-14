@@ -1,15 +1,22 @@
-# Binaries for programs and plugins
+## -----------------------------------------------------------------------------
+## Encryption Demo Project                                  gocrypt/[.gitignore]
+## (c) balarabe@protonmail.com                                      License: MIT
+## -----------------------------------------------------------------------------
+
+## binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
 
-# Test binary, build with `go test -c`
+## test binary, build with `go test -c`
 *.test
 
-# Output of the go coverage tool, specifically when used with LiteIDE
+## output of the Go coverage tool, specifically when used with LiteIDE
 *.out
 
-# shell scripts and batch files
+## shell scripts and batch files
 *.bat
+
+## end
